@@ -1,0 +1,5 @@
+Scrapy tutorial:
+https://docs.scrapy.org/en/latest/intro/tutorial.html
+
+Muy buen canal de scrapeo con scrapy:
+https://www.youtube.com/watch?v=R-9UWqyFtNQ&list=PLj4hN6FewnwoUArmA8kifDHZYvRn6egg5

@@ -1,0 +1,7 @@
+: Correr con scrapy crawl, exportar archivo, exportar log
+cd C:\Users\Usuario\Documents\3F\SIVyS\1.WebScraping\ProperatiScraper
+scrapy crawl ProperatiSpider -o archivos_scrapeo\properati_20AA-MM-DD.csv --logfile log_files\log_20AA-MM-DD.log
+
+: Correr con el script de python
+cd C:\Users\Usuario\Documents\3F\SIVyS\1.WebScraping\ProperatiScraper
+py "run_ProperatiSpider.py"

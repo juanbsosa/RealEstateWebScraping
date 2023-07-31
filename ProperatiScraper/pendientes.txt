@@ -1,0 +1,17 @@
+- Parsear la informacion escrapeada, sobre todo la descripcion que tiene mucha info util.
+
+- Script que agrupe las bases diarias en una base mensual, y haga limpieza de datos (ej eliminar publicaciones duplicadas) para luego sacar info util.
+
+- En este momento el scapeo no consigue la ubicacion de la publicaicon. Usar Selenium para obtener al menos en donde está centrado el mapa que muestra la página. 
+Yo miré en el HTML y no vi nada que me indique que puedo sacar la lat-long, la veo difícil. 
+Ver bien si se puede sacar la info de la API de MapBox. El problema es que hay que cliquear, quiza hay que usar Selenium.
+
+- Evitar que me banee a partir de cierta cantidad de consultas. Por ejemplo ver: https://docs.scrapy.org/en/latest/topics/practices.html#avoiding-getting-banned 
+
+- Considerar la posibilidad de scrapear la misma publicación más de una vez por mes.
+
+- Testear si efectivamente cambia algo ponerle un delay a la consulta. Si no cambia, sacar delay.
+
+- Esto es un error de la página pero hay que contemplarlo: en la búsqueda para ventas en “tres-de-febrero”, cuando llega a la última página (siempre son muchas), 
+Properati te deja cliquear “Siguiente”, pero al tocar el botón, te tira el error de página no encontrara. Ver cómo se puede contemplar esto. 
+Aunque creo que no debería frenar el spider esto.
