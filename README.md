@@ -1,5 +1,8 @@
 # Real Estate Web Scraper
 
+![image](https://github.com/user-attachments/assets/2b51e8af-7f43-4dcd-8eb2-5e960e903b07)
+
+
 This project is a web scraping application designed to extract real estate listings from the website Properati Argentina. It is built using the Scrapy framework, a popular tool for scalable web scraping in Python.
 
 ## Project Structure
